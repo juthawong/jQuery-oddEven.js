@@ -2,51 +2,37 @@
 <html>
   <head><title>Ampare jQuery-OddEven.js</title></head>
   <body style='background-color:#2c3e50;'>
-    <div style='background-color:#ecf0f1'>
-    <table>
-      <header>      <th>Testing Table</th> </header>
-      <tr>Even</tr><br>
-      <tr>Odd</tr><br>
-      <tr>Another Even</tr><br>
-      <tr>Another Odd</tr><br>
-      <tr>Again Another Even</tr><br>
-      <tr>Again Another Odd</tr><br>
-      <footer>
-        <th><ol>
-          <li>0</li>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          </ol><th>
-      </footer>
-    </table>
+    <div id='test' style='background-color:#ecf0f1'>
+
+    <div> 
+        
     <textarea id="runthis">
-          jQuery("tr").evenoddbgcolor('#3498db','#e74c3c');
-      jQuery("tr").odd().click(function(){
-        alert("I am odd Table Row");
+         let rand = Math.random() * 20;
+      for(let i = 0 ;i< rand ; i++){
+                            jQuery('#test').append('<div></div>');
+      }
+      let evennumber = 1;                      
+      jQuery('#test div').even().each(function(){
+                        jQuery(this).html('I am Even Number ' + evennumber);     
+                            });
+      jQuery('#test div').odd().each(function(){
+        jQuery(this).html('I am Odd Number ' + evennumber);
       });
-      jQuery("tr").even().click(function(){
-        alert("I am even Table Row");
+      jQuery('#test div').odd().click(function(){
+        alert(" I say I am the odd");
       });
-        jQuery("li").odd().click(function(){
-        alert("I am Odd List");
+      jQuery('#test div').even().click(function(){
+        alert("Hello I am even");
       });
-      jQuery("tr").even().click(function(){
-        alert("I am even List");
-      });
-      jQuery("tr").evenoddcolor('#2c3e50','#fff');
-      jQuery("li").evenbgcolor('#16a085');
-      
+      jQuery('#test div').evenoddbgcolor('#3498db','#2ecc71');
+      jQuery('#test div').oddcolor('#2c3e50');
     </textarea>
       <br><button id='run'>Run This </button>
     </div>
     <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
     <script src='jquery-oddeven.min.js'></script>
     <script>
+   
       function runeval(){
 eval(jQuery("#runthis").val());
       }
