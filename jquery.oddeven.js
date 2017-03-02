@@ -41,6 +41,10 @@ $.fn.even = function(evenname,evenproperty,oddname,oddproperty){
 $.fn.oddevencss =function(oddname,oddproperty,evenname,evenproperty){
   $(this).evenoddcss(evenname,evenproperty,oddname,oddproperty);
 }
+$.fn.evenoddcss = function(evenname,evenproperty,oddname,oddproperty){
+$(this).evencss(evenname,evenproperty);
+$(this).oddcss(oddname,oddproperty);
+}
 $.fn.evencss = function(name,property){
    $(this).even().css(name, property);
 }
