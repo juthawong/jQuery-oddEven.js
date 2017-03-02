@@ -3,9 +3,34 @@
   <head><title>Ampare jQuery-OddEven.js</title></head>
   <body style='background-color:#2c3e50;'>
     <div id='test' style='background-color:#ecf0f1'>
+     Hello and Welcome To My Very First jQuery Plugin , I made for fun to save my time writing code for client.
+     <br>
+      <h2>You can easily select even or add by</h2>
+      <ul>
+      <li>jQuery(yourselector).even(); <-- Select Even <br>
+        </li><li>jQuery(yourselector).odd(); <-- Select Odd <br>
+        </li>jQuery(yourselector).oddcolor(color); <-- Change Odd Color <br>
+      <li>jQuery(yourselector).evencolor(color) <-- Change Even Color <br>
+        </li><li>jQuery(yourselector).evenbgcolor(color) <-- Change Even Background Color <br>
+        </li>jQuery(yourselector).evencss(cssselector,cssproperty) <-- Set Css for even <br>
+      <li>jQuery(yourselector).oddcss(cssselector,cssproperty) <-- Set CSS For Odd <br>
+        <h2> Change Both Even and Odd at one </h2>
+     <li>jQuery(yourselector).evenoddbgcolor(evenbgcolor,oddbgcolor); or  <br>
+      
+     jQuery(yourselector).oddevenbgcolor(oddbgcolor,evenbgcolor); <br>
+        </li>
+      <li> Same as Font Color 
+    jQuery(yourselector).evenoddcolor(evencolor,oddcolor); or  <br>
+        </li> jQuery(yourselector).oddevencolor(oddcolor,evencolor); 
+     <li>
+        Same as CSS
+      
+      jQuery(yourselector).evenoddcss(evencss,evencssproperties,oddcss,evenproperties)  ;
+             jQuery(yourselector).oddevencss(oddcss,oddcssproperties,evencss,evenproperties)  ;
 
-    <div> 
-        
+        </li>
+      </ul>
+        <br>
     <textarea id="runthis">
          let rand = Math.random() * 20;
       for(let i = 0 ;i< rand ; i++){
@@ -26,6 +51,8 @@
       });
       jQuery('#test div').evenoddbgcolor('#3498db','#2ecc71');
       jQuery('#test div').oddcolor('#2c3e50');
+      jQuery('#test div').oddevencss('height','50px','height','60px');
+      jQuery('#test div').evenoddcss('font-size','20px','font-size','17px');
     </textarea>
       <br><button id='run'>Run This </button>
     </div>
