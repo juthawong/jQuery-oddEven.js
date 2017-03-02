@@ -12,10 +12,14 @@
       }
       let evennumber = 1;                      
       jQuery('#test div').even().each(function(){
+                            evennumber = evennumber + 1;
                         jQuery(this).html('I am Even Number ' + evennumber);     
                             });
+                                  let oddnumber = 1;                      
+
       jQuery('#test div').odd().each(function(){
-        jQuery(this).html('I am Odd Number ' + evennumber);
+                            oddnumber = oddnumber + 1;
+        jQuery(this).html('I am Odd Number ' + oddnumber);
       });
       jQuery('#test div').odd().click(function(){
         alert(" I say I am the odd");
