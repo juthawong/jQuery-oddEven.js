@@ -34,7 +34,7 @@ $.fn.evenoddcolor = function(evencolor,oddcolor){
     $(this).oddcolor(oddcolor);
   }
 }
-$.fn.evenoddcss = function(evenname,evenproperty,oddname,oddproperty){
+$.fn.even\ = function(evenname,evenproperty,oddname,oddproperty){
   $(this).evencss(evenname,evenproperty);
   $(this).oddcss(oddname,oddcss);
 }
@@ -45,7 +45,7 @@ $.fn.evencss = function(name,property){
    $(this).even().css(name, property);
 }
 $.fn.oddcss = function(name,property){
-  return $(this).odd().css(name, property);
+  $(this).odd().css(name, property);
 }
 $.fn.odd = function(){
 return $(this).filter(":odd");
