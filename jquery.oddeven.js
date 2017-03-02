@@ -34,7 +34,7 @@ $.fn.evenoddcolor = function(evencolor,oddcolor){
     $(this).oddcolor(oddcolor);
   }
 }
-$.fn.even\ = function(evenname,evenproperty,oddname,oddproperty){
+$.fn.even = function(evenname,evenproperty,oddname,oddproperty){
   $(this).evencss(evenname,evenproperty);
   $(this).oddcss(oddname,oddcss);
 }
