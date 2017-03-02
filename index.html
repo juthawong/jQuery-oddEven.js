@@ -1,1 +1,56 @@
-Defa
+<!doctype html>
+<html>
+  <head><title>Ampare jQuery-OddEven.js</title></head>
+  <body style='background-color:#2c3e50;'>
+    <div style='background-color:#ecf0f1'>
+    <table>
+      <header>      <th>Testing Table</th> </header>
+      <tr>Even</tr>
+      <tr>Odd</tr>
+      <tr>Another Even</tr>
+      <tr>Another Odd</tr>
+      <tr>Again Another Even</tr>
+      <tr>Again Another Odd</tr>
+      <footer>
+        <th><ol>
+          <li>0</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          </ol><th>
+      </footer>
+    </table>
+    <textarea id="runthis">
+          jQuery("tr").evenoddbgcolor('#3498db','#e74c3c');
+      jQuery("tr").odd().click(function(){
+        alert("I am odd Table Row");
+      });
+      jQuery("tr").even().click(function(){
+        alert("I am even Table Row");
+      });
+        jQuery("li").odd().click(function(){
+        alert("I am Odd List");
+      });
+      jQuery("tr").even().click(function(){
+        alert("I am even List");
+      });
+      jQuery("tr").evenoddcolor('#2c3e50','#fff');
+      jQuery("li").evenbgcolor('#16a085');
+      
+    </textarea>
+      <br><button id='run'>Run This </button>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src='jquery-oddeven.min.js'></script>
+    <script>
+      function runeval(){
+eval(jQuery("#runthis").val());
+      }
+      jQuery('#run').click(runeval);
+    </script>
+  </body>
+</html>
