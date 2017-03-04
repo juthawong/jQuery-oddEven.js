@@ -42,18 +42,18 @@ $.fn.oddevencss =function(oddname,oddproperty,evenname,evenproperty){
   $(this).evenoddcss(evenname,evenproperty,oddname,oddproperty);
 }
 $.fn.evenoddcss = function(evenname,evenproperty,oddname,oddproperty){
-$(this).evencss(evenname,evenproperty);
-$(this).oddcss(oddname,oddproperty);
+  $(this).evencss(evenname,evenproperty);
+  $(this).oddcss(oddname,oddproperty);
 }
 $.fn.evencss = function(name,property){
-   $(this).even().css(name, property);
+  $(this).even().css(name, property);
 }
 $.fn.oddcss = function(name,property){
   $(this).odd().css(name, property);
 }
 $.fn.odd = function(){
-return $(this).filter(":odd");
+  return $(this).filter(":odd");
 }
 $.fn.even = function(){
-return $(this).filter(":even");
+  return $(this).filter(":even");
 }
