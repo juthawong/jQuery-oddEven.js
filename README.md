@@ -7,6 +7,7 @@ npm i jquery.oddeven.js
 ```
 
 Download From Our Github Release
+https://github.com/juthawong/jQuery-oddEven.js/releases
 
 ##Contribution
 
