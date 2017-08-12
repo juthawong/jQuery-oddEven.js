@@ -14,9 +14,9 @@ https://github.com/juthawong/jQuery-oddEven.js/releases
 
 Let us fork and build something crazy together :)
 
-# How to Use :
+## How to Use :
 
-## Select Even Or Odd
+### Select Even Or Odd
 ```javascript
 
 jQuery(yourselector).even(); // Select Even 
@@ -34,7 +34,7 @@ jQuery(yourselector).evencss(cssselector,cssproperty) // Set Css for even
 jQuery(yourselector).oddcss(cssselector,cssproperty) // Set CSS For Odd 
 ```
 
-## Select Both Even and Odd
+### Select Both Even and Odd
 ```javascript
 
 jQuery(yourselector).evenoddbgcolor(evenbgcolor,oddbgcolor); 
@@ -66,4 +66,4 @@ https://juthawong.github.io/jQuery-oddEven.js/
 ## Licensed
 Apache 2.0
 
-### Created with Love By Juthawong Naisanguansee - Bangkok , Thailand
+Created with Love By Juthawong Naisanguansee From Bangkok , Thailand
