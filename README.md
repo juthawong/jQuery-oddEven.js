@@ -1,6 +1,6 @@
 # jQuery-oddEven.js
 Easily Select Odd and Even Both Javascript , CSS and more. To save your time coding and managing stuff. Just for fun
-##Download
+## Download
 NPM
 ```
 npm i jquery.oddeven.js
@@ -9,12 +9,12 @@ npm i jquery.oddeven.js
 Download From Our Github Release
 https://github.com/juthawong/jQuery-oddEven.js/releases
 
-##Contribution
+## Contribution
 
 Let us fork and build something crazy :)
 
 #How to Use :
-##Select Even Or Odd
+## Select Even Or Odd
 ```javascript
 jQuery(yourselector).even(); // Select Even 
 
@@ -31,7 +31,7 @@ jQuery(yourselector).evencss(cssselector,cssproperty) // Set Css for even
 jQuery(yourselector).oddcss(cssselector,cssproperty) // Set CSS For Odd 
 ```
 
-##Select Both Even and Odd
+## Select Both Even and Odd
 ```javascript
 
 jQuery(yourselector).evenoddbgcolor(evenbgcolor,oddbgcolor); 
@@ -56,9 +56,11 @@ If you guys are great at designing ux and coding stuff. You can easily contribut
 
 Thank you
 
-###Playground
+### Playground
 https://juthawong.github.io/jQuery-oddEven.js/
 
 
-##Licensed
+## Licensed
 Apache 2.0
+
+### Created with Love By Juthawong Naisanguansee - Bangkok , Thailand
