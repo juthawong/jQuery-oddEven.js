@@ -1,0 +1,26 @@
+{
+  "name": "jQuery.oddEven.js",
+  "description": "Easily Select Odd and Even Both Javascript , CSS and more",
+  "main": "jquery.oddeven.js",
+  "authors": [
+    "Juthawong Naisanguansee"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.ampareengine.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "jQuery",
+    "Odd",
+    "Even",
+    "Javascript",
+    "CSS",
+    "Selector",
+    "DOM"
+  ]
+}
