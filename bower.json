@@ -14,9 +14,9 @@
     "test",
     "tests"
   ],
-    "dependencies": {
-    "jquery": "~3.3.1"
-  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
   "keywords": [
     "jQuery",
     "Odd",
