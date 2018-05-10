@@ -3,13 +3,13 @@ Easily Select Odd and Even Both Javascript , CSS and more. To save your time cod
 ## Download and Install
 From NPM
 ```console
-npm i jquery.oddeven.js
+juthawong@ampareos:~$ npm i jquery.oddeven.js
 ```
 
 From Bower
 
 ```console
-bower install jQuery.oddEven.js
+juthawong@juthawong-mango:~$  bower install jQuery.oddEven.js
 ```
 
 Download From Our Github Release
