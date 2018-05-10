@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "jquery": "^3.3.1"
-  }
+  },
   "keywords": [
     "jQuery",
     "Odd",
